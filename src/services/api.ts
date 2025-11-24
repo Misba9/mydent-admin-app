@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API_BASE_URL = "https://doctor-appointment-5j6e.onrender.com";
+// const API_BASE_URL = "https://doctor-appointment-5j6e.onrender.com";
+const API_BASE_URL = "https://mydent-api.onrender.com";
 
 export const api = axios.create({
   baseURL: API_BASE_URL,
