@@ -28,7 +28,7 @@ const AdminLoginPage: React.FC = () => {
 
       localStorage.setItem("token", access_token);
       localStorage.setItem("role", "admin");
-      navigate("/admin/tickets");
+      navigate("/admin/carousels");
     } catch (error: any) {
       setErrorMsg(
         error.response?.data?.message || "Login failed. Please try again."
